@@ -3,7 +3,6 @@ let textArea = document.getElementById("editorBox");
 let previewArea = document.getElementById("output");
 
 function interpreter() {
-    console.log(textArea.value);
     previewArea.innerHTML = textArea.value;
 }
 

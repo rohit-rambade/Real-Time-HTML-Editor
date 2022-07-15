@@ -14,7 +14,7 @@ header h1{
 .option-div{
     width: 20%;
     margin-left: 10px;
-    /* background-color: black; */
+    
     
 }
 
@@ -26,16 +26,22 @@ header h1{
 
 
 .options{
-    margin-top: 5px;
+    margin-top: 15px;
     margin-left: 10px;
    
     width: 50%;
-    /* border-bottom: 1px solid black; */
+    
     margin-bottom: 5px;
-    /* background-color: bisque; */
+    
     
    
 }
+
+@media only screen and (max-width: 600px) {
+    .options {
+      display: flex;
+    }
+  }
 
 
 .button{
@@ -50,15 +56,26 @@ header h1{
   display: inline-block;
   height: 40px;
   width: 90px;
- /* border-bottom: 2px solid red;
- border-right: 2px solid red; */
- 
+  border-radius: 5px;
+
 }
+
+@media only screen and (max-width: 600px) {
+    .button {
+        height:41px;
+        max-width:136px;
+        display:inline-block;
+        padding:2px 7px;
+        margin-right:16px;
+
+    }
+  }
 .button:hover{
     
-    background-color: wheat;
-    border-bottom: 2px solid black;
-    border-radius: 55px;
+    /* background-color: wheat; */
+    border-bottom: 2px solid rgb(252, 3, 3);
+    border-radius: 0;
+    
 }
 
 .textbox{
@@ -71,7 +88,7 @@ header h1{
     font-size: 20px;
     padding: 5px;
     box-shadow: 0 0 10px;
-    /* background-color: rgb(117, 116, 114); */
+    
     margin-left: 10px;
     height: 50vh;
     /* width:90vw ; all good */
@@ -81,6 +98,10 @@ header h1{
     
   
     
+}
+
+#editorBox:hover{
+    border: 2px solid rgb(252, 3, 3);
 }
 
 
