@@ -1,0 +1,41 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML interpreter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@700&family=IBM+Plex+Mono:ital@1&family=Inconsolata:wght@800&family=Karla:wght@300&display=swap" rel="stylesheet">   <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        <h1>live interpreter</h1>
+    </header>
+    <h1 class="heading">write code here</h1>
+    <div class="option-div">
+        
+        <div class="options">
+
+            <button class="button" id="save">save</button>
+            <button class="button">reset</button>
+        </div>
+        
+    </div>
+    <div class="textbox">
+
+        <textarea type="code" name="editor" id="editorBox" oninput="interpreter()"></textarea>
+    </div>
+
+    <h1 class="heading">sasf</h1>
+            <div class="outputblock">
+                <div id="output"></div>
+            </div>
+    <script src="script.js"></script>
+</body>
+</html>

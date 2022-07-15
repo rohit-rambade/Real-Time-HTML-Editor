@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;  
+   
+}
+
+header h1{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: 'Inconsolata', monospace;
+    text-align: center;
+}
+
+.option-div{
+    width: 20%;
+    margin-left: 10px;
+    /* background-color: black; */
+    
+}
+
+.heading {
+    font-family: 'Inconsolata', monospace;
+    color: black;
+    margin-left: 10px;
+}
+
+
+.options{
+    margin-top: 5px;
+    margin-left: 10px;
+   
+    width: 50%;
+    /* border-bottom: 1px solid black; */
+    margin-bottom: 5px;
+    /* background-color: bisque; */
+    
+   
+}
+
+
+.button{
+    
+    font-family: 'Inconsolata', monospace;
+    padding: 0;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    /* box-shadow: 0 0 10px 5px; */
+    box-shadow: -5px -5px 10px;
+  
+  display: inline-block;
+  height: 40px;
+  width: 90px;
+ /* border-bottom: 2px solid red;
+ border-right: 2px solid red; */
+ 
+}
+.button:hover{
+    
+    background-color: wheat;
+    border-bottom: 2px solid black;
+    border-radius: 55px;
+}
+
+.textbox{
+    width: 90vw;
+}
+
+#editorBox{
+    
+    border-radius: 10px ;
+    font-size: 20px;
+    padding: 5px;
+    box-shadow: 0 0 10px;
+    /* background-color: rgb(117, 116, 114); */
+    margin-left: 10px;
+    height: 50vh;
+    /* width:90vw ; all good */
+    resize: none;
+    outline: none;
+    width: calc(100vw - 10% - 1px);
+    
+  
+    
+}
+
+
+/* for media query
+width: calc(100vw - 10% - 1px); */
+
+.outputblock{
+   
+    padding: 5px;
+    
+    margin-left: 10px;
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
