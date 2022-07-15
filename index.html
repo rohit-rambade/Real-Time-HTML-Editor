@@ -15,15 +15,15 @@
 </head>
 <body>
     <header>
-        <h1>live interpreter</h1>
+        <h1>Real Time HTML Editor</h1>
     </header>
-    <h1 class="heading">write code here</h1>
+    <h1 class="heading">Write Code Here <span id="symbol">!</span></h1>
     <div class="option-div">
         
         <div class="options">
 
             <button class="button" id="save">save</button>
-            <button class="button">reset</button>
+            <button class="button" id="reset">reset</button>
         </div>
         
     </div>
@@ -32,7 +32,7 @@
         <textarea type="code" name="editor" id="editorBox" oninput="interpreter()"></textarea>
     </div>
 
-    <h1 class="heading">Live Preview</h1>
+    <h1 class="heading">Live Preview <span id="symbol">!</span></h1>
             <div class="outputblock">
                 <div id="output"></div>
             </div>
